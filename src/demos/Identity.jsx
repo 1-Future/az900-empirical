@@ -60,10 +60,7 @@ export function IdentityDemo() {
 
   return (
     <div>
-      <p className="text-text-dim mb-6">
-        <span className="text-azure">Microsoft Entra ID</span> (formerly Azure AD) handles identity.
-        Walk through login scenarios to see MFA, Conditional Access, and SSO in action.
-      </p>
+      <p className="text-text-dim mb-4 text-sm">Step through login flows. See what gets blocked and why.</p>
 
       <div className="flex gap-2 mb-6 flex-wrap">
         {scenarios.map((s, i) => (

@@ -27,12 +27,7 @@ export function GovernanceDemo() {
 
   return (
     <div>
-      <p className="text-text-dim mb-6">
-        Azure governance tools enforce rules across your environment:
-        <span className="text-azure"> Policies</span> audit/deny non-compliant resources,
-        <span className="text-amber-400"> Locks</span> prevent accidental changes,
-        <span className="text-purple-400"> Tags</span> organize for cost tracking.
-      </p>
+      <p className="text-text-dim mb-4 text-sm"><span className="text-azure">Policies</span> enforce rules. <span className="text-amber-400">Locks</span> prevent oops. <span className="text-purple-400">Tags</span> track costs.</p>
 
       <div className="flex gap-2 mb-6">
         {['locks', 'policy', 'tags'].map(t => (

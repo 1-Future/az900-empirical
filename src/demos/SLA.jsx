@@ -42,11 +42,7 @@ export function SLADemo() {
 
   return (
     <div>
-      <p className="text-text-dim mb-6">
-        <span className="text-azure">SLAs</span> guarantee uptime. When you combine services,
-        multiply their SLAs to get the <span className="text-amber-400">composite SLA</span> (always lower).
-        Select services below.
-      </p>
+      <p className="text-text-dim mb-4 text-sm">Pick services. Multiply SLAs. <span className="text-amber-400">Composite is always lower.</span></p>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         <div>

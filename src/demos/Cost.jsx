@@ -17,10 +17,7 @@ export function CostDemo() {
 
   return (
     <div>
-      <p className="text-text-dim mb-6">
-        Azure pricing depends on what you use, how much, and your commitment level.
-        Slide the resource counts and switch pricing models to see the bill change.
-      </p>
+      <p className="text-text-dim mb-4 text-sm">Slide resources up. Watch the bill. Switch pricing models.</p>
 
       <div className="flex gap-2 mb-6">
         {[

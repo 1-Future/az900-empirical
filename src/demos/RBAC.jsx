@@ -25,10 +25,7 @@ export function RBACDemo() {
 
   return (
     <div>
-      <p className="text-text-dim mb-6">
-        <span className="text-azure">RBAC</span> controls who can do what at which scope.
-        Select a user to see what actions they can perform based on their role assignment.
-      </p>
+      <p className="text-text-dim mb-4 text-sm">Who can do what? Pick a user, see what they're allowed to touch.</p>
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
         <div>

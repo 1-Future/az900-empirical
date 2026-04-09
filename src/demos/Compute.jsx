@@ -78,10 +78,7 @@ export function ComputeDemo() {
 
   return (
     <div>
-      <p className="text-text-dim mb-6">
-        Azure offers compute at every level of abstraction. More control = more responsibility.
-        Click each service to compare.
-      </p>
+      <p className="text-text-dim mb-4 text-sm">More control = more responsibility. Click to compare.</p>
 
       <div className="flex gap-2 mb-6 flex-wrap">
         {services.map((svc, i) => (

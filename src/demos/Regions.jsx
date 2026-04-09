@@ -20,11 +20,7 @@ export function RegionsDemo() {
 
   return (
     <div>
-      <p className="text-text-dim mb-6">
-        Azure has 60+ regions worldwide. Each region contains datacenters. Regions with
-        <span className="text-azure"> Availability Zones</span> have 3+ physically separate datacenters.
-        <span className="text-purple-400"> Region pairs</span> provide disaster recovery failover.
-      </p>
+      <p className="text-text-dim mb-4 text-sm">Click a region. <span className="text-azure">AZs</span> = separate datacenters. <span className="text-purple-400">Pairs</span> = DR failover.</p>
 
       <div className="bg-surface-2 rounded-lg p-5 relative" style={{ aspectRatio: '2/1' }}>
         <div className="absolute inset-0 opacity-10 rounded-lg"

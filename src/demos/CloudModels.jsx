@@ -21,10 +21,7 @@ export function CloudModelsDemo() {
 
   return (
     <div>
-      <p className="text-text-dim mb-6">
-        Cloud models define how much of the stack <span className="text-azure">Azure manages</span> vs
-        how much <span className="text-amber-400">you manage</span>. Click each model to compare.
-      </p>
+      <p className="text-text-dim mb-4 text-sm"><span className="text-azure">Azure</span> vs <span className="text-amber-400">You</span> — who manages what?</p>
 
       <div className="flex gap-2 mb-6 flex-wrap">
         {Object.keys(models).map(m => (

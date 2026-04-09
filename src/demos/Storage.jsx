@@ -27,9 +27,7 @@ export function StorageDemo() {
 
   return (
     <div>
-      <p className="text-text-dim mb-6">
-        Azure Storage has 4 core services for different data types, and 4 redundancy options for durability.
-      </p>
+      <p className="text-text-dim mb-4 text-sm">4 storage types, 4 redundancy levels.</p>
 
       <div className="flex gap-2 mb-6">
         <button onClick={() => setTab('types')}

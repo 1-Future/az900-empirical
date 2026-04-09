@@ -31,10 +31,7 @@ export function NetworkingDemo() {
 
   return (
     <div>
-      <p className="text-text-dim mb-6">
-        <span className="text-azure">Network Security Groups (NSGs)</span> filter traffic with priority-based rules.
-        Lower priority number = evaluated first. First matching rule wins. Test packets below.
-      </p>
+      <p className="text-text-dim mb-4 text-sm">Lower priority number = checked first. First match wins. Send test traffic below.</p>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         <div>

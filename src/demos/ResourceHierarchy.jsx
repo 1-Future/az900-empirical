@@ -82,13 +82,7 @@ export function ResourceHierarchyDemo() {
 
   return (
     <div>
-      <p className="text-text-dim mb-6">
-        Azure organizes resources in a hierarchy: <span className="text-purple-400">Management Groups</span> &rarr;
-        <span className="text-blue-400"> Subscriptions</span> &rarr;
-        <span className="text-amber-400"> Resource Groups</span> &rarr;
-        <span className="text-emerald-400"> Resources</span>.
-        Policies and access flow downward. Click any node.
-      </p>
+      <p className="text-text-dim mb-4 text-sm"><span className="text-purple-400">MG</span> &rarr; <span className="text-blue-400">Sub</span> &rarr; <span className="text-amber-400">RG</span> &rarr; <span className="text-emerald-400">Resource</span>. Policies flow down. Click any node.</p>
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
         <div className="md:col-span-2 bg-surface-2 rounded-lg p-5">

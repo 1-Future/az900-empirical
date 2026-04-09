@@ -24,10 +24,7 @@ export function SharedResponsibilityDemo() {
 
   return (
     <div>
-      <p className="text-text-dim mb-6">
-        The shared responsibility model defines who secures what. The top 3 rows are <span className="text-amber-400">always yours</span>.
-        The bottom 3 are <span className="text-azure">always Microsoft's</span>. The middle shifts based on cloud model.
-      </p>
+      <p className="text-text-dim mb-4 text-sm">Top 3 = <span className="text-amber-400">always yours</span>. Bottom 3 = <span className="text-azure">always Microsoft</span>. Middle shifts.</p>
 
       <div className="flex gap-2 mb-6">
         {['onprem', 'iaas', 'paas', 'saas'].map(m => (

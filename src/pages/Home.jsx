@@ -17,17 +17,8 @@ export function Home({ demos, onSelect }) {
       <header className="border-b border-border px-6 py-12 text-center">
         <h1 className="text-4xl font-bold text-white mb-2">AZ-900 Empirical</h1>
         <p className="text-text-dim text-lg max-w-2xl mx-auto">
-          Learn Azure fundamentals by doing. Interactive demos first, then practice questions.
-          No Azure account needed.
+          See it. Then answer it.
         </p>
-        <div className="flex gap-4 justify-center mt-6 text-sm">
-          <a href="https://learn.microsoft.com/en-us/credentials/certifications/exams/az-900/"
-            target="_blank" className="text-azure hover:underline">Exam Page</a>
-          <a href="https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/az-900"
-            target="_blank" className="text-azure hover:underline">Study Guide</a>
-          <a href="https://learn.microsoft.com/en-us/credentials/certifications/practice-assessments-for-microsoft-certifications"
-            target="_blank" className="text-azure hover:underline">Practice Assessment</a>
-        </div>
       </header>
 
       <main className="max-w-6xl mx-auto px-6 py-8">
@@ -58,14 +49,13 @@ export function Home({ demos, onSelect }) {
       </main>
 
       <footer className="border-t border-border px-6 py-6 text-center text-text-dim text-sm">
-        <p>Demo first. Sandbox second. Questions third. No credit card required.</p>
-        <div className="flex gap-4 justify-center mt-2">
-          <a href="https://learn.microsoft.com/en-us/training/paths/microsoft-azure-fundamentals-describe-cloud-concepts/"
-            target="_blank" className="text-azure hover:underline">Path 1: Cloud Concepts</a>
-          <a href="https://learn.microsoft.com/en-us/training/paths/azure-fundamentals-describe-azure-architecture-services/"
-            target="_blank" className="text-azure hover:underline">Path 2: Architecture</a>
-          <a href="https://learn.microsoft.com/en-us/training/paths/describe-azure-management-governance/"
-            target="_blank" className="text-azure hover:underline">Path 3: Governance</a>
+        <div className="flex gap-4 justify-center">
+          <a href="https://learn.microsoft.com/en-us/credentials/certifications/exams/az-900/"
+            target="_blank" className="text-azure hover:underline">Official Exam</a>
+          <a href="https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/az-900"
+            target="_blank" className="text-azure hover:underline">Study Guide</a>
+          <a href="https://learn.microsoft.com/en-us/credentials/certifications/practice-assessments-for-microsoft-certifications"
+            target="_blank" className="text-azure hover:underline">MS Practice Test</a>
         </div>
       </footer>
     </div>
